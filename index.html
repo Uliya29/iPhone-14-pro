@@ -17,23 +17,99 @@
   <header class="header">
     <div class="container">
       <nav class="nav">
-        <ul class="menu">
-          <li class="menu-item">
+        <ul class="header__menu list">
+          <li>
             <a href="#" class="link">Что нового</a>
           </li>
-          <li class="menu-item">
+          <li>
             <a href="#" class="link">Цвет</a>
           </li>         
-          <li class="menu-item">
+          <li>
             <a href="#" class="link">Заказать</a>
           </li>
         </ul>
-        <a class="logo header__logo">
-          <img class="logo-img" src="images/logo.svg" alt="логотип сайта">
+        <a class="logo">
+          <img class="logo__img" src="images/logo.svg" alt="логотип сайта">
         </a>
         <a class="phone link" href="tel:380504565656">+38 050-456-56-56</a>
       </nav>
     </div>
   </header>
+
+  <main class="main">
+
+<!-- HEADLINE SECTION-->
+
+    <section class="headline container">
+      <h1 class="headline__title">IPHONE 14 PRO</h1>
+      <img src="images/headline__img.png" alt="iPhone 14 Pro" class="headline__img">
+      <a href="#" class="link headline__btn">ВЫБРАТЬ</a>
+    </section>
+
+<!-- NEWS SECTION-->
+
+    <section class="new container">
+      <h2 class="section__title">ЧТО НОВОГО</h2>
+      <div class="new__info">
+        <div class="new__text">
+          <p>
+            Все модели оснащены однокристальной системой A16 Bionic, 48-мегапиксельной основной камерой и экранами ProMotion с защитой Ceramic Shield и частотным диапазоном 1 — 120 Гц, а также ускоренной памятью LPDDR5. Дизайн линейки обновлен, на фронтальной панели смартфонов два выреза. 
+          </p>
+          <p>
+            Все iPhone 14 в США будут продаваться без лотка для SIM-карт: производитель заявляет, что улучшенная технология eSIM позволит перенести старые электронные сим-карты на новые смартфоны.
+          </p>
+          <p>
+            Обновлены фронтальная камера (она снабжена автофокусом и быстрее распознает пользователя в условиях недостаточной освещенности) и сенсор основной камеры.
+          </p>
+          <p>
+            <b>iPhone 14 Pro вышел в новом дизайне — без фирменной «челки». Также в ассортименте появился новый цвет. В смартфоне, в отличие от «обычных» 14-х айфонов, установлен процессор A16 Bionic, который может за секунду производить 4 трлн операций с фото.</b>
+          </p>
+        </div>
+        <img src="images/new.jpg" alt="new iphone" class="new__img">
+      </div>
+    </section>
+
+<!-- COLOR SECTION -->
+
+    <section class="color container">
+      <h2 class="section__title">ВЫБЕРЕТЕ СВОЙ ЦВЕТ</h2>
+      <ul class="color__list list">
+        <li class="color__item">
+          <img class="color__img" src="images/color__silver.jpg" alt="">
+          <h3><b>Silver</b></h3>
+          <p>Серебристый</p>
+        </li>
+        <li class="color__item">
+          <img class="color__img" src="images/color__purple.jpg" alt="">
+          <h3><b>Deep purple</b></h3>
+          <p>Темно фиолетовый</p>
+        </li>
+        <li class="color__item">
+          <img class="color__img" src="images/color__gold.jpg" alt="">
+          <h3><b>Gold</b></h3>
+          <p>Золотой</p>
+        </li>
+        <li class="color__item">
+          <img class="color__img" src="images/color__black.jpg" alt="">
+          <h3><b>Space Black</b></h3>
+          <p>Космический черный</p>
+        </li>
+      </ul>
+    </section>
+
+<!-- CONTACTS SECTION -->
+
+    <section class="contacts container"><!--так принято называть секцию с формой для контактов-->
+        <form action="#" class="form">
+          <h2 class="section__title contacts__title">ХОЧЕШЬ IPHONE 14 PRO?</h2>
+          <input type="text" class="form__input" placeholder="Ваше имя">
+          <input type="text" class="form__input" placeholder="Номер телефона">
+          <p class="form__text">В ближайшее время наш менеджер свяжется с Вами</p>
+          <button class="form__button">ЗАКАЗАТЬ</button>
+        </form>
+        <img src="images/contacts__img.jpg" alt="iphone" class="contacts__img">
+    </section>
+
+  </main>
 </body>
 </html>
