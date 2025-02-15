@@ -30,14 +30,13 @@ b{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  font-size: 24px;
+  line-height: 29px;
 }
 
 .header__menu{
   display: flex;
   gap: 30px;
-  display: flex;
-  flex-grow: 1;
-  flex-basis: 0;
 }
 
 .list{
@@ -47,9 +46,8 @@ b{
 }
 
 .phone{
-  flex-grow: 1;
-  flex-basis: 0;
-  text-align: right;
+  font-size: 24px;
+  line-height: 29px;
 }
 
 
@@ -57,8 +55,7 @@ b{
   text-decoration: none;
   margin: 0;
   color: #717171;
-  font-size: 24px;
-  line-height: 29px;
+  width: max-content;
 }
 
 /* HEADLINE */
@@ -204,3 +201,14 @@ b{
   cursor: pointer;
 }
 
+.footer{
+  background-color: #0A0A0A;
+  padding: 50px 0;
+}
+
+.footer__inner{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
